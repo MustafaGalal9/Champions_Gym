@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: rgb(221, 0, 0);
+}
+
+/* Header start */
+header {
+  height: 100vh;
+  background: url(images/hero-bg.jpg) center center/cover no-repeat;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar img {
+  width: 80px;
+  margin-left: 15px;
+}
+
+#navbar ul {
+  display: flex;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+#navbar ul li a {
+  padding: 15px 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+header .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+
+header .content h1 {
+  font-size: 40px;
+}
+
+header .content p {
+  margin: 20px 0 40px;
+}
+
+.primary-text {
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  border: 1px solid #ff0000;
+}
+
+
+section .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+
+section .content h1 {
+  font-size: 40px;
+}
+
+section .content p {
+  margin: 20px 0 40px;
+}
+
+section {
+  height: 100vh;
+  background: url(images/matt-gross-9aCkSl6YcXg-unsplash.jpg) center center/cover no-repeat;
+}
+
+a:hover {
+  background-color: rgb(56, 7, 160);
+}
+
+footer {
+  background-color: #2a2d30;
+  color: #ffffff;
+  padding: 1em 300px;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: #525558;
+  justify-content: space-between;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #cbdbe5;
+  justify-content: center;
+}
+
+.footer a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.copy {
+  background-color: #2a2d30;
+  color: #ffffff;
+
+  text-align: center;
+  text-decoration: none;
+  color: #676b6f;
+}

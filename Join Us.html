@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Join Us.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Join Us</title>
+</head>
+
+
+<body>
+    <Header>
+        <a class="logo" href="index.html">
+            <img src="images/Logo.png">
+        </a>
+        <Nav>
+            <ul class="nav_links">
+                <li><a href="Find Us.html">Find Us</a></li>
+                <li><a href="workout.html">Workout Tips</a></li>
+                <li><a href="Gear Shop.html">Gear Shop</a></li>
+                <li><a href="Other Services.html">Other serivces</a></li>
+                <li><a href="membership.html">Mempership</a></li>
+            </ul>
+        </Nav>
+            <a class="reg" href="Join Us.html"><button>Join Us</button></a>
+    </Header>
+
+
+
+    <Section class="sec">
+        <div class="container" id="main">
+            <Div class="sign-up">
+                <form action="#">
+                    <h1>Create account</h1>
+                    <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p>or use your email</p>
+                    <input type="text" name="txt" placeholder="name" required="">
+                    <input type="email" name="txt" placeholder="Email" required="">
+                    <input type="password" name="txt" placeholder="password" required="">
+                    <button>Sign up</button>
+                </form>
+            </Div>
+    
+            <Div class="sign-in">
+                <form action="#">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p>or use your account</p>
+                    <input type="Email" name="txt" placeholder="Email" required="">
+                    <input type="password" name="txt" placeholder="password" required="">
+                    <a href="#">Forget your Password?</a>
+                    <button>Sign in</button>
+                </form>
+            </div>
+    
+    
+            <div class="overlay-container">
+             <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Wellcome back captain! </h1>
+                    <p>To keep connected with us , please login with your personal info</p>
+                    <button id="signin">Sign in</button>
+                </div>
+    
+            <div class="overlay-right">
+                <h1>Hello captain! </h1>
+                <p>Enter your personal details and start journey with us</p>
+                <button id="signup">Sign in</button>
+           </div>
+            
+    
+             </div>
+            </div>
+        </div>
+    </Section>
+    <div class="footer1">
+    <footer class="footer">
+        <a href="About Us.html">About Us</a> <br />
+        <a href="">Contact Us</a>
+        <a href="Privacy Policy.html">Privacy Policy</a>
+        <a href="Group.html">Group</a>
+    </footer>
+    <div class="copy">
+      <p>© 2023 Champion Gym, Inc. All rights reserved.</p>
+    </div>
+</div>
+ <script type="text/javascript">
+const signupButton = document.getElementById('signup')
+const signinButton = document.getElementById('signin')
+const main = document.getElementById('main')
+signupButton.addEventListener('click' ,() => {
+main.classList.add("right-panal-active");    
+});
+signinButton.addEventListener('click' ,() => {
+main.classList.remove("right-panal-active");    
+});
+
+ </script>   
+</body>
+</html>

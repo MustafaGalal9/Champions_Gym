@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+*{
+margin: 0;
+font-family:'Poppins', sans-serif; ;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+    background-image: url("images/3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+
+
+li, a, button{
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    
+    header{
+        background-color: #e8edf0;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px, 200px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .logo img {
+        cursor: pointer;
+        width: 50px;
+        font-size: 50px;
+        margin-bottom: 0;
+        margin-left: 20px;
+        }
+    
+    .nav_links {
+    list-style: none;
+    }
+    
+    .nav_links li {
+    display: inline-block;
+    padding: 0px 20px
+    }
+    
+    .nav_links li a:hover{
+    color: rgb(119, 125, 125);
+    }
+    
+    .reg button {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    background: none;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: 0.4s;
+    
+    }
+    
+    .reg :hover{
+        color: whitesmoke;
+      
+    }
+    
+    .reg {
+    margin-left: -250px;
+    }
+
+    h1{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        text-align: center;
+        font-size: 40px;
+        color: black ;    
+    }
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+}
+th, td{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0px;
+    
+}
+th, tr{ 
+    background-color: rgba(255, 255, 255, 0.496);
+}
+
+td
+{
+    padding: 20px;
+}
+
+
+
+
+table  li 
+{
+    list-style: none;
+}
+
+table a
+{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+a:hover
+{
+    color: red;
+}  
+
+
+footer {
+    background-color: #2a2d30;
+    color: #ffffff;
+    padding: 1em 300px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #525558;
+    justify-content: space-between;
+  }
+  .footer a {
+    text-decoration: none;
+    color: #cbdbe5;
+    justify-content: center;
+  }
+  
+  .footer a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .copy {
+    background-color: #2a2d30;
+    color: #ffffff;
+  
+    text-align: center;
+    text-decoration: none;
+    color: #676b6f;
+  }
